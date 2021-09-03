@@ -1,0 +1,660 @@
+/********************************************************** */
+/************************  Resco ************************* */
+/**********************************************************
+
+    TABLE OF CONTENT
+    ========================
+
+    01. Default CSS
+    02. Header CSS
+    03. About CSS
+
+
+/****************************************************** */
+/*******************  01. Default CSS ***************** */
+/****************************************************** */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    color: #ccc;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+a:hover,
+a:focus,
+a:visited {
+    outline: none;
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.22;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+h6{
+  font-size:19px;
+  font-weight: 600;
+}
+p {
+  color: #767676;
+  font-size: 16px;
+  line-height:1.7;
+  margin-bottom: 0;
+}
+.primary-color{
+    color: #FF9442;
+}
+.secondary-color{
+    color: #2D40A2;
+}
+.heading-color{
+    color: #071E48;
+}
+.primary-bg{
+    background-color: #FF9442;
+}
+.secondary-bg{
+    background-color: #2D40A2;
+}
+.heading-bg{
+    background-color: #071E48;
+}
+.btn-small {
+    background: transparent;
+    color: #2D40A2;
+    font-weight: 600;
+    border: 2px solid #2D40A2;
+    padding: 15px 20px;
+    line-height: 0.5;
+}
+.btn-small:hover {
+    background: #FF9442;
+    color: #fff;
+    border: 2px solid#FF9442;
+}
+.container-fluid {
+    padding:0 0;
+}
+.sp{
+    padding: 100px 0;
+}
+.s-style {
+    display: inline-block;
+    background-color: #2D40A2;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.mb-70{
+  margin-bottom: 70px;
+}
+.bg-01{
+  background-color: #F1F4FB;
+}
+/****************************************************** */
+/*******************  02. Header CSS ***************** */
+/****************************************************** */
+
+/****************** NAVBAR ******************/
+.navbar {
+  background-color: #fff;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 20%);
+}
+.navbar img{
+    height: 48px;
+    width: 48px;
+}
+.navbar .navbar-nav .nav-link {
+    padding: 20px;
+    font-size: 14px;
+    color: #0C0A5D;
+    font-weight: 600;
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: #FF9442;
+}
+.navbar-collapse .btn-small{
+  margin-left: 3rem;
+}
+.navbar-toggler{
+    background-color: #FF9442;
+    padding: 10px 6px;
+    border: none;
+    outline: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-toggler span{
+    display: block;
+    background-color: #fff;
+    width:22px;
+    height: 2px;
+}
+.navbar-toggler span+span{
+    display: block;
+    background-color: #fff;
+    width:22px;
+    height: 2px;
+    margin-top:4px;
+}
+.navbar-toggler span+span+span{
+    display: block;
+    background-color: #fff;
+    width:22px;
+    height: 2px;
+    margin-top:4px;
+}
+
+/****************** HEADER BANNER ******************/
+#particles-js{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.banner-section {
+  /* background-color: #EDECEE; */
+  position: relative;
+  background-image: url("../images/christian-buehner-DItYlc26zVI-unsplash.jpg");
+  background-position: 100% 2%;
+  background-size: cover;
+  height: 100vh;
+}
+/* .banner-section:before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  background-color: #1b5961;
+  opacity: 40%;
+  height: 100%;
+  width: 100%;
+} */
+.banner-left {
+  position: absolute;
+  /* padding: 177px 0; */
+  z-index: 3;
+  top: 30%;
+}
+.banner-left h6 {
+  padding: 8px 0px;
+}
+.banner-left h3 {
+  padding-bottom: 20px;
+}
+.banner-left p {
+  padding-bottom: 20px;
+}
+
+
+/****************************************************** */
+/*******************  03. About CSS ***************** */
+/****************************************************** */
+.after-left-section {
+    position: relative;
+    overflow: hidden;
+}
+.after-left-section:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    width: 29%;
+    background: #FF9442;
+    z-index: -999;
+}
+.about-section .img-box {
+    position: relative;
+    box-shadow: rgba(0,0,0,0.25) 0px 25px 50px -12px;
+    background: #fff;
+    padding: 10px;
+}
+.nav-social-icons {
+  position: absolute;
+  right: 10px;
+  bottom: 60px;
+  z-index: 99;
+}
+
+.nav-social-icons a {
+  border: 1px solid #fff;
+  background: #fff;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 8px;
+  color: #000;
+}
+.nav-social-icons a:hover{
+  color: #fff;
+  background-color: #000;
+}
+.about-section .bottom-style {
+  position: absolute;
+  width: 607px;
+  bottom: -183px;
+  right: -154px;
+  z-index: -1;
+}
+.about-section .bottom-style svg{
+    color: #FF9442
+}
+.about-me h3 {
+  padding-bottom: 20px;
+}
+
+.about-me p {
+  padding-bottom: 20px;
+}
+
+/****************** SKILL SECTION ******************/
+
+.sm-title{
+    margin-bottom: 30px;
+}
+.sm-title h4{
+    position: relative;
+    padding: 0 0 15px;
+}
+.sm-title h4:after{
+    content: "";
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #FF9442;
+}
+.skill-section .box {
+    list-style: none;
+    padding: 30px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+}
+.skill-section .box li span {
+    padding: 3px 10px;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.skill-section .box h6 {
+    color: #fff;
+}
+.skill-section .box p{
+    color: rgba(255,255,255,0.8);
+}
+.skill-section .box li+li {
+    padding-top: 25px;
+    margin-top: 20px;
+    border-top: 1px dashed rgba(255,255,255,0.2);
+}
+
+.skill-bars{
+    padding: 30px;
+    background: #F1F4FB;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+}
+.skill-bars .bar{
+  margin: 38px 0;
+}
+.skill-bars .bar:first-child{
+  margin-top: 0px;
+}
+.skill-bars .bar .info{
+  margin-bottom: 5px;
+}
+.skill-bars .bar .info span{
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100%{
+    opacity: 1;
+  }
+}
+.skill-bars .bar .progress-line{
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+              0 1px rgba(255,255,255,0.8);
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.bar .progress-line span{
+  height: 100%;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #2D40A2;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line.html span{
+  width: 90%;
+}
+.bar .progress-line.css span{
+  width: 60%;
+}
+.bar .progress-line.jquery span{
+  width: 85%;
+}
+.bar .progress-line.python span{
+  width: 50%;
+}
+.bar .progress-line.mysql span{
+  width: 75%;
+}
+.progress-line span::before{
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after{
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}
+.progress-line.html span::after{
+  content: "90%";
+}
+.progress-line.css span::after{
+  content: "60%";
+}
+.progress-line.jquery span::after{
+  content: "85%";
+}
+.progress-line.python span::after{
+  content: "50%";
+}
+.progress-line.mysql span::after{
+  content: "75%";
+}
+/****************** SERVICE SECTION ******************/
+.service-box .icon{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.box-content h6 {
+  margin-bottom: 15px;
+}
+.service-box {
+  background-color: #fff;
+  padding: 25px;
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 20%);
+  margin-bottom: 2rem;
+}
+.service-box:hover {
+  background-color: #FF9442;
+  transition: 0.5s;
+}
+.service-box:hover .icon, .service-box:hover h6, .service-box:hover p {
+  color: #FFF!important;
+  transition: 0.5s;
+}
+
+/****************** PORTFOLIO SECTION ******************/
+.portfolio-menu {
+  list-style: none;
+  display:flex;
+  float:right;
+}
+.portfolio-menu li {
+  margin-left: 50px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.portfolio-menu li.active {
+  color: #FF9442!important;
+}
+.single-portfoio {
+  position: relative;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+.portfolio-overlay {
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  height:100%;
+  background: rgba(255, 148, 66, 0.6);
+  position: absolute;
+  z-index: 2;
+  bottom: 100%;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.portfolio-overlay h6, .portfolio-overlay p{
+  color: #fff;
+}
+.single-portfoio:hover .portfolio-overlay{
+  bottom: 0;
+}
+
+/****************** TESTIMONIAL SECTION ******************/
+.testi-pic {
+  margin-right: 26px;
+}
+
+.testi-pic img {
+  width: 150px!important;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.testi-authro h3.name {
+  font-size: 18px;
+}
+
+.testi-author h3.name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.testi-author h3.job {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.testi-author {
+  padding-top: 10px;
+}
+
+.testi-author h3 {
+  line-height: 1.5;
+}
+
+/****************** BLOG SECTION ******************/
+.blog-info h6 a:hover {color: #071E48;}
+
+.blog-info span {
+    font-style: italic;
+    display: block;
+    color: #767676;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.blog-post {
+  box-shadow: 5px 5px 20px rgb(0 0 0 / 20%);
+}
+.blog-post:hover {
+    background-color: #F1F4FB;
+    transition: 0.5s;
+}
+.blog-info {
+    padding: 20px;
+}
+
+/****************** PARALLAX SECTION ******************/
+.parallax-section{
+  background-image: url("../images/parallax-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+.overlay{
+  position: relative;
+}
+.overlay:before{
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 90%;
+}
+.overlay * {
+  z-index: 2;
+}
+.parallax-content {
+  text-align: center;
+  padding: 22px 0px;
+}
+.parallax-content .icon i {
+  color: #fff;
+  font-size: 90px;
+  margin-bottom: 35px;
+}
+.parallax-content h2 {
+  color: #fff;
+  margin-bottom: 35px;
+}
+.parallax-content .btn-small{
+  color: #fff;
+  border-color: #fff;
+}
+.parallax-content .btn-small:hover{
+  border: 2px solid #FF9442;
+}
+
+/****************** CONTACT SECTION ******************/
+.contact-section{
+  position: relative;
+}
+.contact-section:before {
+  position: absolute;
+  content: "";
+  background-image: url(../images/map-bg.png);
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 7%;
+}
+input[type=text], textarea, input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+.contact-icon {
+  height: 60px;
+  width: 60px;
+  background-color: #FF9442;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.contact-info {
+  margin-left: 20px;
+  color: #767676;
+}
+.contact-list {
+  margin-bottom: 30px;
+}
+
+/****************** FOOTER SECTION ******************/
+.footer{
+  background-color: #000;
+  padding: 20px 0;
+}
+.social-icons a i {
+    color: #fff;
+    font-size: 16px;
+    padding-right: 20px;
+}
+.social-icons a i:hover {
+  color: #dc965a;
+}
+.copyright p{
+  color: #fff;
+  font-size: 15px;
+}

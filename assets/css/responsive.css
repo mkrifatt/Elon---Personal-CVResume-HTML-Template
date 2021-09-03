@@ -1,0 +1,95 @@
+/* Large desktop :1200px. */
+@media (min-width: 1200px) {
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.navbar .navbar-nav .nav-link {
+    padding: 20px 0;
+    border-top: 1px solid #c1c1c1;
+}
+.navbar-collapse .btn-small{
+    display: none;
+}
+.about-me h3{
+    font-size: 20px;
+}
+.about-me p {
+    font-size: 15px;
+}
+.about-section .bottom-style {
+    width: 540px;
+    bottom: -226px;
+}
+.nav-social-icons {
+    bottom: 19px;
+}
+.contact-icon {
+    height: 50px;
+    width: 50px;
+}
+.contact-info span{
+    font-size: 16px;
+}
+.parallax-section.sp{
+    padding: 77px 0;
+}
+.copyright p {
+    font-size: 14px;
+}
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.navbar-collapse .btn-small{
+    display: none;
+}
+.navbar .navbar-nav .nav-link {
+    border-top: 1px solid #c1c1c1;
+}
+.after-left-section:after{
+    display: none;
+}
+.about-me {
+    margin-top: 60px;
+}
+.about-section .bottom-style {
+    width: 550px;
+    bottom: -210px;
+}
+.nav-social-icons {
+    bottom: 30px;
+}
+.blog-post {
+    margin-bottom: 40px;
+}
+.parallax-section.sp{
+    padding: 75px 0;
+}
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.skill-section .box {
+    margin-bottom: 60px;
+}
+.contact-icon {
+    margin-left: 0!important;
+}
+.submit-bar {
+    margin-bottom: 50px;
+}
+.footer{
+    text-align: center;
+}
+.copyright.d-flex {
+    display: block!important;
+}
+}
